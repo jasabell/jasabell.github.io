@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Why would someone want to create a webpage about themselves? I’m not sure. I just want to create a webpage, but can’t think about anything worthy to create a webpage about. So, I thought I would create this page as a hobby so I could dabble in computer stuff.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+In earlier years I had blogged on Blogspot and then tried to create a commonplace book on Tumblr. Both were fun, but I didn’t keep them up.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+So, using Jekyll and Github, I thought I would try to pull my disparate sites together in to one place.
+
+Here it is, for better or worse.

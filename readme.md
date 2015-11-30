@@ -1,5 +1,3 @@
-### The Abell Six
+### TheAbellSix
 
-This is the home repository for Jason Abell.
-
-There is nothing to see here.
+This is my hobby site. I'm trying to learn Github, Jekyll, and CSS.
