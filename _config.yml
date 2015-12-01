@@ -2,13 +2,14 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://theabellsix.com" # the base hostname & protocol for your site
 
+# Bio information
 title: The Abell Six
 email: website@theabellsix.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is a hobby website for TheAbellSix and includes thoughts, musings, writings, and a commonplace book.
+description: This is a hobby website for TheAbellSix and includes thoughts, musings, writings, and a commonplace book.
 github_username: jasabell
 
 # Jekyll build settings
+paginate: 10
 markdown: kramdown
 highlighter: pygments
 timezone: 'America/Chicago'
