@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Website settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://theabellsix.com" # the base hostname & protocol for your site
@@ -12,10 +5,10 @@ url: "http://theabellsix.com" # the base hostname & protocol for your site
 title: The Abell Six
 email: website@theabellsix.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a hobby website for The Abell Six and includes thoughts, musings, writings, and a commonplace book.
+  This is a hobby website for TheAbellSix and includes thoughts, musings, writings, and a commonplace book.
 github_username: jasabell
-twitter_username:
 
 # Jekyll build settings
 markdown: kramdown
 highlighter: pygments
+timezone: 'America/Chicago'
