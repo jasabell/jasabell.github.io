@@ -1,15 +1,77 @@
 # Website settings
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://theabellsix.com" # the base hostname & protocol for your site
 
-# Bio information
+# Internal nav
+nav:
+  main:
+    about: "/about"
+    blog: "/blog"
+    writing: "/writing"
+    speaking: "/speaking"
+  blog:
+    pages: "/blog"
+    all: "/blog/all"
+    popular: "/blog/popular"
+    tags: "/blog/tags"
+    rss: "/feed.xml"
+
+# Bio settings
 title: The Abell Six
-email: website@theabellsix.com
-description: This is a hobby website for TheAbellSix and includes thoughts, musings, writings, and a commonplace book.
+name: "The Abell Six"
+slogan: "We're bookish"
+description: "This is a hobby website for TheAbellSix and includes thoughts, musings, writings, and a commonplace book."
+thumbnail_path: "abell-small.jpg"
 github_username: jasabell
+website_repo_url: "https://github.com/jasabell"
+email: website@theabellsix.com
+
+# URLs
+contact_urls:
+#  twitter:
+#    url: "https://twitter.com/brikis98"
+#    label: "Twitter"
+#    icon: "twitter-square"
+#    username: "@brikis98"
+#  linkedin:
+#    url: "https://www.linkedin.com/in/jbrikman"
+#    label: "LinkedIn"
+#    icon: "linkedin-square"
+#  facebook:
+#    url: "https://www.facebook.com/brikis98"
+#    label: "Facebook"
+#    icon: "facebook-square"
+#  google:
+#    url: "https://plus.google.com/+YevgeniyBrikman/"
+#    label: "Google+"
+#    icon: "google-plus-square"
+#  slideshare:
+#    url: "https://www.slideshare.net/brikis98"
+#    label: "SlideShare"
+#    icon: "slideshare"
+  github:
+    url: "https://github.com/jasabell/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:website@theabellsix"
+    label: "Email"
+    value: "website@theabellsix"
+    icon: "envelope-square"
 
 # Jekyll build settings
 paginate: 10
 markdown: kramdown
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: "/blog/:year/:month/:day/:title"
+sass:
+  sass_dir: "_sass"
+  style: :compressed
 highlighter: pygments
 timezone: 'America/Chicago'
+
+# Plugins (GitHub Pages only support a few)
+gems:
+#  - jekyll-redirect-from
+  - jekyll-sitemap

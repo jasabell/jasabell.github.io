@@ -1,0 +1,15 @@
+---
+layout: default
+title: "The Abell Six: Blog"
+redirect_from: "/blog"
+nav_item: blog
+nav_item_blog: pages
+header_title: Blog
+include_header: blog_header.html
+---
+
+{% include blog-nav.html %}
+{% for post in paginator.posts %}
+  {% include post-outline.html post=post %}
+{% endfor %}
+{% include blog_pagination.html %}
