@@ -60,6 +60,7 @@ contact_urls:
     icon: "envelope-square"
 
 # Jekyll build settings
+paginate: 10
 markdown: kramdown
 paginate: 10
 paginate_path: "/blog/page:num"
